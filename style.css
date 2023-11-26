@@ -4,13 +4,68 @@
     padding: 0; 
     box-sizing: border-box;
 }
+/* Html Tag Design */
 .h1{
-    color: rebeccapurple;
+    color: purple;
     background-color: azure;
     padding: 1rem;
+}
+h3{
+    color: white;
+    margin: 10px 0px;
+}
+label{
+    font-size: 18px;
+}
+.mealing{
+    border: 1.5px solid white;
+    padding: 12px;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,rgba(2,0,36)0%,rgba(19,161,205,1)0%,rgba(32,221,101,1)100%);
 }
 
 /* Alignment */
 .text-center{
     text-align: center;
+}
+
+input,textarea{
+    padding: .5rem;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    display: block;
+}
+input:focus{
+    background-color: azure;
+}
+textarea:focus{
+    background-color: azure;
+}
+
+/* element */
+.text-white{
+    color: white;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+/* margin */
+.my-3{
+    margin: 15px 0;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mb-3{
+    margin-bottom: 15px;
+}
+
+/* border */
+.border{
+    border: 1.5px solid white;
 }
